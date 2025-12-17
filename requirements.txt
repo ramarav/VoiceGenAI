@@ -1,0 +1,10 @@
+streamlit>=1.25.0
+huggingface-hub>=0.17.0
+pydub>=0.25.1
+python-dotenv>=1.0.0
+soundfile>=0.12.1
+numpy>=1.24.0
+requests>=2.31.0
+# Optional (local TTS)
+TTS>=0.13.0               # coqui TTS (optional, heavy)
+torch>=2.1.0              # if using local models and GPU/CPU
